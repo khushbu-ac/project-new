@@ -1,0 +1,481 @@
+body {
+    width: 80%;
+    margin-left: 12%;
+    margin-right: 8%;
+    background-color: whitesmoke;  
+}
+#navbar {
+    width: 5vw;
+    height: 100%;
+    position:fixed;
+    background-color: rgb(242, 243, 245);
+    top: 0px;
+    left: 0px;
+    border: #ddd 2px solid;
+}
+
+#navbar img {
+    width: 37px;
+    height: 37px;
+    margin-top: 68px;
+    margin-left: 3px;
+    
+   
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5vw;
+    width:100%;
+    height: 7vh;
+    position: fixed;
+    background-color:rgb(242, 243, 245);
+    top: 0px;
+    border: #ddd 2px solid;
+    left: 0px;
+}
+
+#header a {
+    padding: 1vw 2vw;
+    border-radius: 7px;   
+}
+#header a:hover {
+    background-color: rgb(105, 110, 110);
+}
+#header a.active{
+    background-color:blue;
+    margin-right: 3vw;
+    color:white;
+}
+.heading {
+    
+    margin-top: 11vw;
+    text-align: center;
+    justify-content: center;
+    padding: 2vw;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#banner-container-parent {
+    width:80vw;
+    height: auto;
+    z-index: -1;
+  
+   
+
+}
+#banner-container-parent h1 {
+    font-size: 3vw;
+}
+
+#container-parent {
+    display: flex;
+    width: 80vw;
+    height:75vh;
+    overflow: hidden;
+   
+   
+}
+
+.about-us-areas {
+    margin-top: 35px;
+    width: 95%;
+    height:min-content;
+    display: flex;
+}
+
+.about-us  {
+    width: 100%;
+    height:min-content;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px 20px;
+}
+.about-us button {
+    width: 150px;
+    height: 50px; 
+    font-size: large;
+    border: 1.2px solid orange;
+    background-color: aliceblue;
+    border-radius: 12px;
+    flex-wrap:wrap;
+}
+
+
+.video {
+    width: 100%;
+    height:min-content;
+    padding: 50px 4px;
+} 
+
+.h1 {
+    margin-top: 135px;
+    font-size: 22px;
+    line-height: 34px;
+}
+.Our-Vision-parent {
+    display: flex;
+    width:  95%;
+    height: fit-content;
+    
+}
+
+.Our-Vision {
+    width: 100%;
+    font-size: 20px;
+    padding-right: 135px;
+}
+
+
+.Our-Vision .side-number {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.Our-Vision {
+   line-height: 35px;
+}
+.Our-Vision .left-button {
+    background-color:orange;
+    padding: 7px 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.Our-Vision button {
+    width: 150px;
+    height: 50px; 
+    font-size: large;
+    border: 1.2px solid orange;
+    background-color: aliceblue;
+    border-radius: 12px;
+    margin-top:2vh;
+    flex-wrap: wrap;
+}
+
+.Our-Vision button .button {
+    background-color: blue;
+}
+
+.image-life-section {
+    width: 100%;
+}
+
+.Our-Vision span {
+    width: 100%;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+.who-parent {
+    width: 95%;
+    height: fit-content;;
+    display: flex;
+}
+
+
+.who-headline-container {
+    width: 100%;
+
+}
+.division-container {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.we-are-areas-parent {
+     width: 95%;
+     height: 270px;
+     display: flex;
+     position: relative;
+     background-color: #ddd;
+     flex-wrap: wrap;
+}
+
+.we-are-areas {
+    width: 30vw;
+    height: 45vh;
+    padding: 1vh 1vw;
+    font-size: large;
+    line-height: 32px;
+    overflow: hidden;
+
+}
+.images {
+    position: relative; 
+    width: 50vw;
+   
+}
+.our-usp {
+    width: 80vw;
+    top: 5vh;
+    height: fit-content;
+    
+}
+.our-usp-top {
+    padding: 7vh 2vw;
+    font-size: 19px;
+    line-height:30px;
+}
+
+.our-usp img {
+    width: 331px;
+    height:430px;
+  
+}
+.img-decoding {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.it-for-me h1 {
+    font-size: 50px;
+    padding: 50px 25px;
+}
+
+
+.icon-parent {
+    width: 80vw;
+    height: auto;
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icon-parent p {
+    font-size: large;
+    
+    line-height: 25px;
+}
+
+
+.GHRC-feature-parent {
+    width: 95%;
+    height:fit-content;
+    padding-left: 20px;
+    padding: 0px 35px;
+    
+    flex-wrap: wrap;
+    
+}
+
+.community-membership {
+    width: 500px;
+    height: 570px;
+    background-color: rgb(210, 215, 215);
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+.community-membership img {
+    width: 500px;
+    height: 405px;
+}
+
+.hackathon-areas img {
+    width: 15% left;
+    padding: 25px 50px;  
+
+   
+  
+} 
+.hackathon-areas-parent {
+    margin-left: 13px;
+    width: 510px;
+    height: 180px;
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+.job-areas {
+    width: 510px;
+    height:280px;
+    margin-top: 30px;
+    background-color: orange;
+    border-radius: 15px;
+    color:grey; 
+    font-size:large;     
+    
+}
+   
+ .job {
+    
+    width: 10% left;
+    padding: 30px 20px;
+ } 
+ 
+.hr-learning-parent {
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding-right: 50px;
+} 
+
+.hr-marketplace {
+    width: 505px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border-radius: 15px;
+    align-items: center;
+}   
+
+.hr-directory {
+   width: 505px;
+   height: 180px;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(117, 114, 114);
+   background-image: url(  );
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+   color: white;
+   margin-top: 10px;
+   padding-top: 25px;
+   padding-bottom:  25px;
+
+}
+
+.my-learning {
+   width: 505px;
+   height: 385px;
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: rgb(218, 215, 211);
+   color: gray;
+   font-size: large;
+   border-radius: 20px;
+}
+
+.ghrc-featur-container span {
+    padding: 5px 25px;
+    margin-right: 20px;
+    
+    background-color:rgb(95, 108, 248);
+    border-radius: 50%;
+}
+.ghrc-featur-container p {
+    padding-left:80px;
+    
+   
+}
+
+.ghrc-featur-container {
+    line-height: 30px;
+    font-size: large;
+    color:gray;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.ghrc-featur-container  h1{
+    color:black;
+}
+
+.advisory-profile-list-container {
+    display: flex;
+    gap: 122px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.advisor-board-container {
+    display: flex;
+    justify-content:space-between ;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 122px;
+    text-align:center;
+}
+.advisor-board-container-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around ;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 122px;
+    text-align:center;
+}
+.advisor-board-container-2 p {
+    color: grey;
+    line-height: 30px;
+    font-size: large;
+}
+
+.hr-journey-parent {
+    width: 70vw; 
+    height: auto; 
+    display: flex; 
+    background-color: #10A1DC;
+    margin-top: 70px;
+    margin-left: 2vw;
+    margin-right: 5vw;
+    padding-left:45px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    line-height: 30px;
+    border-radius: 25px;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+    .about-us-areas {
+        flex-wrap: wrap;
+        
+    }
+
+    .Our-Vision-parent {
+        flex-wrap: wrap;
+        width: 100%;
+    } 
+
+    .who-parent {
+        flex-wrap: wrap;
+    }
+
+    .who-container {
+        flex-wrap: wrap;
+    }
+    .GHRC-feature-parent {
+        flex-wrap: wrap;
+    }
+    .hr-journey-parent {
+        flex-wrap: wrap;
+    }
+    
+}
+
+
